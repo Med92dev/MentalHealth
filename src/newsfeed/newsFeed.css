@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #ADD8E6; /* الأخضر الفاتح */
+  --secondary-color: #003366; /* الأزرق الداكن */
+  --accent-color: #FFC0CB; /* الوردي الباهت */
+  --background-color: #F0F0F0; /* الرمادي الفاتح */
+  --text-color: #ffffff; /* لون النصوص */
+}
+
+
+.news-feed {
+  padding: 20px;
+  background-color: var(--text-color);
+  padding-top: 100px;
+  direction: rtl;
+}
+
+.news-feed h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.news-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--text-color);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.news-content h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.news-content p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.urgent-news, .expert-recommendations, .upcoming-events {
+  margin-top: 40px;
+}
+
+.urgent-news h3, .expert-recommendations h3, .upcoming-events h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.urgent-news-item, .expert-recommendation-item, .upcoming-event-item {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}

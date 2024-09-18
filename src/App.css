@@ -1,0 +1,603 @@
+/* font AMIRI */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root {
+  --primary-color: #ADD8E6; /* الأخضر الفاتح */
+  --secondary-color: #003366; /* الأزرق الداكن */
+  --accent-color: #FFC0CB; /* الوردي الباهت */
+  --background-color: #F0F0F0; /* الرمادي الفاتح */
+  --text-color: #ffffff; /* لون النصوص */
+  --background-color: #e9f5f9;
+  --liner-color1:linear-gradient(to bottom, #b3cde0, #e3f2fd)
+  --font-size: 55px; /* قياس الخط الأساسي */
+  --font-size-title1: 34px; /* قياس خط العناوين */
+  --font-size-title2: 28px; /* قياس خط العناوين */
+  --subheading-font-size: 24px; /* قياس خط العناوين الثانوية */
+  --font-size: 22px; /* قياس الخط الأساسي */
+  --font-family-title:Amiri;
+  --font-family-body:Lateef;
+  --coler-body1:#E3F2FD;
+  --coler-body2:#B3CDE0;
+   
+}
+
+.content-imgHeader h1{
+  font-family: Amiri;
+  font-weight: Bold;
+  color: var(--secondary-color);
+  margin-top: 25vh;
+  margin-bottom: 10vh;
+  font-size: 3rem;
+}
+
+
+/* ===CONTENT=== */
+.content {
+  width: 100%;
+  height: auto;
+  background-color: var(--coler-body1);
+  padding-bottom: 2%;
+  
+}
+
+
+
+
+
+
+
+
+.stack-item {
+  direction: rtl;
+  text-align: right;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  padding-left: 5px;
+  padding-right: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.stack-item h2{
+font-size: var(--subheading-font-size);
+font-family: var(--font-family-title);
+}
+
+.stack-item p {
+  color: var(--secondary-color);
+  font-family: var(--font-family-body);
+  font-size: 24px;
+  
+}
+.stack-item h3{
+  font-size: var(--font-size);
+  font-family: var(--font-family-body);
+}
+
+.item-grid-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item-grid-right div {
+  margin-top: 4px;
+  direction: rtl;
+}
+
+.item-grid-right h1 {
+  color: var(--secondary-color);
+  direction: rtl;
+  text-align: right;
+  font-size: var(--heading-font-size);
+  font-family: var(--font-family-title);
+}
+
+
+
+.item-grid-right img {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.stack-div {
+  display: flex;
+  align-items: center;
+}
+
+/* ===FOOTER=== */
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between; /* توزيع المساحة بين الشعار والأيقونات */
+  align-items: center;
+  padding: 20px;
+  background-color: var(--primary-color); /* لون الخلفية للـ footer */
+  border-top: 1px solid #ccc; /* خط أعلى الـ footer */
+  
+
+  
+}
+
+.footer-logo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* توسيط الشعار والعبارة تحتها */
+  justify-content: center;
+}
+
+.footer-logo img {
+  width: 200px;
+}
+
+.footer-description {
+  margin-top: 10px; /* تباعد بين الشعار والنص */
+  font-size: 14px;
+  color: #666; /* لون النص */
+  font-size: 20px;
+}
+
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icons .vertical-line {
+  height: 40px; /* ارتفاع الخط */
+  width: 1px; /* عرض الخط */
+  background-color: #ccc; /* لون الخط */
+  margin-right: 15px; /* تباعد بين الخط والأيقونات */
+}
+
+
+
+
+.content-imgHeader{
+  height: 70vh;
+}
+
+
+.MainiContent{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index:-1;
+  margin-top:9vh;
+}
+
+
+
+/* ////////////////////////////////////////////////////////// */
+
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: var(--coler-body1);
+}
+.info-card h2{
+font-family: var(--font-family-title);
+
+
+
+}
+.info-section p{
+  font-family: var(--font-family-body);
+  font-weight: bold;
+
+}
+
+.info-card {
+  border-radius: 50px; /* لجعل الزوايا مدورة بشكل أكبر */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vision-card, .founder-card {
+  background: linear-gradient(to bottom, #b3cde0, #e3f2fd); /* تدرج لوني أزرق */
+}
+
+.vision-card {
+  background: linear-gradient(to bottom, #90caf9, #e3f2fd); /* لون أزرق فاتح للرؤية */
+}
+
+.founder-card {
+  background: linear-gradient(to bottom, #64b5f6, #e3f2fd); /* لون أزرق أغمق للمؤسس */
+}
+
+
+
+/* للأشكال البيضاوية */
+.oval {
+  height: 100px; /* حجم مناسب للأشكال البيضاوية */
+  width: 200px; /* حجم مناسب للأشكال البيضاوية */
+  background: linear-gradient(to bottom, #64b5f6, #e3f2fd); /* تدرج لوني أزرق */
+  border-radius: 50%; /* لجعل الشكل بيضاوي بالكامل */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* لون النصوص داخل الشكل البيضاوي */
+ 
+}
+
+/* للتوافق مع الشاشات الصغيرة */
+@media (max-width: 600px) {
+  .info-section {
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .info-card {
+    width: 90%;
+    margin-bottom: 20px;
+  
+  }
+}
+.info-card {
+  font-size: 16px;
+  color: #000000;
+  text-align: right; /* محاذاة النص إلى اليمين */
+  direction: rtl; /* الكتابة من اليمين لليسار */
+}
+
+.info-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #003366; /* لون أزرق غامق */
+}
+
+.info-card p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.info-card .site-name {
+  font-weight: bold;
+  color: #003366; /* لون أزرق غامق */
+  
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+
+/* FAQ Section */
+.faq-section {
+  width: 100%;
+  background-color: var(--coler-body1);
+  padding: 20px;
+  direction: rtl; /* لتحديد الكتابة من اليمين لليسار */
+}
+.faq-section h2 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-title1);
+}
+.faq-section h5{
+  font-family: var(--font-family-title);
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+.faq-section p {
+  font-family: var(--font-family-body);
+  font-size: var(--subheading-font-size);
+  color: #000000;
+}
+
+.faq-title {
+  text-align: center;
+  color: #0056b3;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: var(--font-family-title);
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background:var(--coler-body2);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* مقالات و نصائح*/
+.articles-tips-section {
+  padding: 40px;
+  background-color: var(--coler-body1);
+}
+
+.articles-tips-section h2 {
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 40px;
+  font-family: var(--font-family-title);
+  font-size:var(--font-size-title1) ;
+}
+
+.articles-section, .tips-section {
+  margin-bottom: 40px;
+}
+
+.articles-section h3, .tips-section h3 {
+  font-size: 24px;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: var(--subheading-font-size);
+  font-family: var(--font-family-title);
+  font-weight: bold;
+  font-family: var(--font-family-title);
+  font-size:var(--font-size-title2) ;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.article, .tip {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: right;
+}
+
+.article h4, .tip h4 {
+  font-size: 20px;
+  color: #0056b3;
+  font-family: var(--font-family-title);
+  font-size: var(--subheading-font-size);
+  font-weight: bold;
+}
+
+.article p, .tip p {
+  
+  color: #000000;
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-title2);
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003d82;
+}
+
+/* التصميم المتجاوب */
+@media (max-width: 768px) {
+  .articles-tips-section {
+    padding: 20px;
+  }
+
+  .articles-tips-section h2 {
+    font-size: 24px;
+  }
+
+  .articles-section h3, .tips-section h3 {
+    font-size: 20px;
+  }
+
+  .article h4, .tip h4 {
+    font-size: 18px;
+  }
+
+  .article p, .tip p {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .articles-tips-section {
+    padding: 15px;
+  }
+
+  .articles-tips-section h2 {
+    font-size: 20px;
+  }
+
+  .articles-section h3, .tips-section h3 {
+    font-size: 18px;
+  }
+
+  .article h4, .tip h4 {
+    font-size: 16px;
+  }
+
+  .article p, .tip p {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+.view-more {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size); /* حجم السهم */
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--secondary-color); /* اللون المناسب للنص */
+}
+.view-more:hover{
+  color: var(--text-color); 
+}
+
+.arrow {
+  font-size: var(--font-size-title1); /* حجم السهم */
+  margin-right: 8px; /* المسافة بين السهم والنص */
+}
+
+
+/* مقالات و نصائح*/
+
+/* استكشف الاظربات النفسية الشائعة */
+.respons{
+  padding: 20px;
+}
+.section-title {
+  font-size: var(--font-size-title2); /* حجم الخط حسب الحاجة */
+  color: var(--secondary-color); /* اللون حسب تفضيلاتك */
+  margin-bottom: 20px; /* المسافة بين العنوان والمحتوى */
+  direction: rtl;
+  font-family: Amiri;
+  font-weight: bold;
+}
+.stack-item{
+  background:#fff ;
+  padding: 10px 20px;
+  border-radius:15px;
+ 
+}
+/* استكشف الاظربات النفسية الشائعة */
+
+
+
+.content-body{
+  margin-top: 10vh;
+}
+
+
+/*RESPONSIVE  */
+/* ===استعلامات الإعلام للشاشات الصغيرة=== */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  /* الأنماط الخاصة بالأجهزة اللوحية */
+}
+
+@media screen and (max-width: 600px) {
+  /* الأنماط الخاصة بالهواتف المحمولة */
+  .buttons{
+    display: none;
+  }
+  .icon{
+    display: none;
+    
+  }
+  .menue{
+    display: block;
+    padding-top: 12vh;
+    color: #003366;
+    margin-top: 20vh;
+    
+  }
+}
+
+/*RESPONSIVE  */
+@media (max-width: 700px){
+  .content {
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color);
+    padding-bottom: 2%;
+    position: relative;
+  }
+
+  .content-box .Grid{
+    display: flex;
+   flex-direction: column;
+  }
+
+ /* FOOTER */
+ .footer {
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+
+  
+  padding: 20px;
+  background-color: var(--primary-color); /* لون
+  الخلفية للـ footer */
+  border-top: 1px solid #ccc; /* خط أعلى الـ footer */
+}
+
+.footer-logo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* توسيط الشعار والعبارة تحتها */
+  justify-content: center;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.footer-description {
+  margin-top: 10px; /* تباعد بين الشعار والنص */
+  font-size: 14px;
+  color: #666; /* لون النص */
+  font-size: 20px;
+}
+
+
+.footer-paragraf{
+  direction: rtl;
+ width: 70%;
+}
+
+.MainiContent{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index:-1;
+  margin-top:0vh;
+}
+
+  .content-imgHeader h1{
+    font-family: Amiri;
+    font-weight: Bold;
+    color: var(--secondary-color);
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-size: 2rem;
+  }
+  .content-imgHeader{
+    height: 50vh;
+  }
+}

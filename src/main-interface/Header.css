@@ -1,0 +1,326 @@
+:root {
+  --primary-color: #ADD8E6; /* الأخضر الفاتح */
+  --secondary-color: #003366; /* الأزرق الداكن */
+  --accent-color: #FFC0CB; /* الوردي الباهت */
+  --background-color: #F0F0F0; /* الرمادي الفاتح */
+  --text-color: #ffffff; /* لون النصوص */
+  --coler-body1:#E3F2FD;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.btl{
+  display: none;
+}
+.content-button{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  position: relative;
+  left: 0px;
+  margin-top: 8vh;
+  background:var(--coler-body1);
+  
+ 
+
+}
+.content-button Button{
+
+background-color: var(--secondary-color);
+color: var(--text-color);
+border: none;
+width: 150px;
+border-radius: 10px;
+margin: 20px;
+cursor: pointer;
+font-size: 18px;
+border-radius: 15px; /* زوايا دائرية */
+border: 2px solid transparent; /* تحديد سمك البوردر الافتراضي */
+font-weight: bold;
+}
+.content-button Button:hover{
+  color: var(--text-color);
+}
+
+.content-button .bttn-log-reg{
+  display: none; 
+}
+.content-button .home-page{
+  display: none; 
+}
+
+/* ===HEADER=== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11vh;
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.search-box {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box input {
+  width: 100%;
+  max-width: 500px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 0 10px;
+  
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.logo img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+
+
+.buttons button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 15px; /* زوايا دائرية */
+  border: 2px solid transparent; /* تحديد سمك البوردر الافتراضي */
+}
+
+.buttons button:hover {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color); 
+}
+.father-button{
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+  /* أضف: */
+  align-items: center; /* للتأكد من أن العناصر في المنتصف */
+  background: var(--coler-body1);
+}
+.content-button{
+  text-align: center;
+ 
+  height: 10vh;
+ 
+  width: 100%;
+  /* أضف: */
+  box-sizing: border-box; /* التأكد من أن padding مشمول في العرض */
+}
+/* Content button style for large screens */
+
+.menue-icon{
+  display: none;
+ 
+}
+
+.content-menue{
+  display: none;
+}
+
+
+/* Menu icon for small screens */
+.menue {
+  padding-top: 12vh;
+  color: #003366;
+  cursor: pointer;
+ 
+}
+
+
+.down{
+  background-color: #ADD8E6;
+  margin-top: 12vh;
+  display: none;
+}
+
+
+
+
+
+.drop-down{
+  display: none;
+}
+
+
+
+
+
+
+/* Show target-buttons and hide original buttons on small screens */
+
+
+@media (max-width: 700px){
+  /*  */
+  .father-button{
+    display: none;
+  }
+  .all-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 8vh;
+   
+   
+   
+   
+  background-color: var(--coler-body1);
+ 
+ 
+    }
+  
+  .menue-icon{
+    display: block;
+   cursor: pointer;
+   color: var(--secondary-color);
+   direction: ltr;
+   margin-top: 10px;
+   margin-right: 5px;
+  
+   
+   
+  }
+
+ 
+  .header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width:100% ;
+    background: none;
+   
+
+  }
+
+
+
+  .icon-home{
+ display: none;
+
+  }
+  .buttons{
+    display: none;
+   }
+   .content-button .home-page{
+    display: inline-block; 
+    padding-bottom: auto;
+    display: flex;
+    
+  }
+ 
+
+
+.logo{
+
+  align-self: flex-end; /* وضع العنصر الأول في أقصى اليمين */
+  
+}
+.logo img {
+  height: 40px;
+  
+}
+
+.search-box{
+  margin-top: auto; /* يدفع العنصر الثاني نحو منتصف الديف */
+  margin-bottom: auto; /* يدفع العنصر الثاني نحو منتصف الديف */
+}
+.search-box input{
+  height: 30px;
+  margin-top: 10px;
+  width: 80%;
+  font-size: 18px;
+}
+
+.drop-down{
+  margin-top: 8vh;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-color);
+  padding-top: 10vh;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999; /* تأكد من أن هذا الرقم أعلى من أي عنصر آخر */
+
+}
+
+.content-button{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+  width:90%;
+  /* أضف: */
+ background: none;
+
+ 
+  
+  
+ 
+}
+
+.content-button Button{
+  background-color: var(--primary-color);
+  
+  width: 90vw; /* تأكيد أن الزر يأخذ كامل العرض */
+  height: 5vh;
+  margin-top: 10px;
+  font-size: 24px;
+  color: var(--secondary-color);
+  
+  
+}
+.content-button Button:hover{
+  color: var(--primary-color);
+}
+
+.content-button .bttn-log-reg{
+  display: inline-block;
+  display: flex;
+}
+.buttons{
+  display: none;
+ }
+}

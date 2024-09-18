@@ -1,0 +1,68 @@
+
+
+.list-docters{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    background: #E0F9EF;
+    padding-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-doc{
+    width: 90%;
+    height: auto;
+    
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10%;
+    
+}
+
+.container-docter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* للسماح بتوزيع العناصر على عدة صفوف إذا لزم الأمر */
+    justify-content: center; /* توسيط العناصر أفقيًا */
+    align-items: flex-start; /* ترتيب العناصر من الأعلى */
+    min-height: 100vh; /* تعيين ارتفاع الحاوية لملء الشاشة */
+    gap: 40px; /* تباعد بين العناصر */
+    padding: 20px; /* إضافة تباعد حول المحتوى */
+}
+.docter{
+    /* width: 25%;
+    height: auto;
+    border-radius:15px;
+    box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.5);
+    padding: 20px; */
+
+    width: 25%;
+    min-width: 250px; /* تعيين حد أدنى للعرض لتجنب تصغير العناصر بشكل مفرط */
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+    background: #fff; /* إضافة خلفية لجعل العناصر بارزة */
+    display: flex;
+    align-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.docter img{
+    width: 100px;
+}
+.docter hr{
+    width: 70%;
+    color: black;
+    margin: 20px;
+
+}
+
+h1{
+    color: #126249;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
