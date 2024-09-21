@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MentalHealth/static/css/main.481e9117.css",
+    "main.css": "/MentalHealth/static/css/main.a1fb731b.css",
     "main.js": "/MentalHealth/static/js/main.90385050.js",
     "static/js/453.bc7bf849.chunk.js": "/MentalHealth/static/js/453.bc7bf849.chunk.js",
     "static/media/meditation.jpg": "/MentalHealth/static/media/meditation.ae7f86fd4c6c73f5005a.jpg",
@@ -18,12 +18,12 @@
     "static/media/doc-abarmas.webp": "/MentalHealth/static/media/doc-abarmas.4c13097c3d033fb833c5.webp",
     "static/media/doc-shamano.webp": "/MentalHealth/static/media/doc-shamano.4c13097c3d033fb833c5.webp",
     "index.html": "/MentalHealth/index.html",
-    "main.481e9117.css.map": "/MentalHealth/static/css/main.481e9117.css.map",
+    "main.a1fb731b.css.map": "/MentalHealth/static/css/main.a1fb731b.css.map",
     "main.90385050.js.map": "/MentalHealth/static/js/main.90385050.js.map",
     "453.bc7bf849.chunk.js.map": "/MentalHealth/static/js/453.bc7bf849.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.481e9117.css",
+    "static/css/main.a1fb731b.css",
     "static/js/main.90385050.js"
   ]
 }
