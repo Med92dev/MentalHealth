@@ -24,8 +24,8 @@
   gap: 5%;
   position: relative;
   left: 0px;
-  margin-top: 8vh;
-  background:var(--coler-body1);
+ padding-top: 6vh;
+ 
   
  
 
@@ -128,7 +128,7 @@ font-weight: bold;
   justify-content: center;
   /* أضف: */
   align-items: center; /* للتأكد من أن العناصر في المنتصف */
-  background: var(--coler-body1);
+ 
 }
 .content-button{
   text-align: center;
@@ -198,7 +198,7 @@ font-weight: bold;
    
    
    
-  background-color: var(--coler-body1);
+ 
  
  
     }

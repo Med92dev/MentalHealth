@@ -3,9 +3,6 @@ import React from 'react';
 
 import '../App.css'; // استيراد ملف CSS
 
-import autism from "../images/autism.jpg";
-import fear from '../images/fear.jpg';
-import depression from '../images/depression.jpg';
 import DALL·E from "../images/DALL·E.webp"
 
 
