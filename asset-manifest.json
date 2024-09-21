@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c3bf0cd.css",
+    "main.js": "/static/js/main.6212ae89.js",
+    "static/js/453.bc7bf849.chunk.js": "/static/js/453.bc7bf849.chunk.js",
+    "static/media/meditation.jpg": "/static/media/meditation.ae7f86fd4c6c73f5005a.jpg",
+    "static/media/nutrition.jpg": "/static/media/nutrition.68053387310f6ebcae64.jpg",
+    "static/media/psychotherapy.jpg": "/static/media/psychotherapy.8aa5ddd2536852528220.jpg",
+    "static/media/exercise.jpg": "/static/media/exercise.c3f1a92d7573eace5ae8.jpg",
+    "static/media/art.jpg": "/static/media/art.5bd7bc3749a8d109b32b.jpg",
+    "static/media/stress.jpg": "/static/media/stress.3befdf7c1a46a8df2303.jpg",
+    "static/media/DALL·E.webp": "/static/media/DALL·E.62e4c84cfbd70fcda064.webp",
+    "static/media/depression.jpg": "/static/media/depression.11094c2b9ca59c185ffd.jpg",
+    "static/media/fear.jpg": "/static/media/fear.9c71593717bbc0c8600f.jpg",
+    "static/media/llllllllllllllggggggggg.png": "/static/media/llllllllllllllggggggggg.c965d5bf131e3e179e60.png",
+    "static/media/autism.jpg": "/static/media/autism.9302325f83582b712a62.jpg",
+    "static/media/doc-brian.webp": "/static/media/doc-brian.bf5882c195576fddb456.webp",
+    "static/media/doc-laurie.webp": "/static/media/doc-laurie.19c2ccabf78aa476b863.webp",
+    "static/media/doc-susan.webp": "/static/media/doc-susan.19c2ccabf78aa476b863.webp",
+    "static/media/doc-robert.webp": "/static/media/doc-robert.2d8cc311b221a9f243a7.webp",
+    "static/media/doc-abarmas.webp": "/static/media/doc-abarmas.4c13097c3d033fb833c5.webp",
+    "static/media/doc-shamano.webp": "/static/media/doc-shamano.4c13097c3d033fb833c5.webp",
+    "index.html": "/index.html",
+    "main.5c3bf0cd.css.map": "/static/css/main.5c3bf0cd.css.map",
+    "main.6212ae89.js.map": "/static/js/main.6212ae89.js.map",
+    "453.bc7bf849.chunk.js.map": "/static/js/453.bc7bf849.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c3bf0cd.css",
+    "static/js/main.6212ae89.js"
+  ]
+}
