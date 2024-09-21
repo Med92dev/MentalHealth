@@ -1,4 +1,5 @@
 // src/components/Content.js
+import React from 'react';
 
 import '../App.css'; // استيراد ملف CSS
 

@@ -1,3 +1,4 @@
+import React from 'react';
 
 import "./docters.css"
 import Footer from "../main-interface/Footer"

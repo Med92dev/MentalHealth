@@ -49,31 +49,19 @@
 // export default Articles;
 
 
-import React, { useEffect } from 'react';
+
+
+
 import './article.css';
 import Footer from '../main-interface/Footer';
 
 const Articles = () => {
-  useEffect(() => {
-    // إنشاء عنصر script وتحميله
-    const script = document.createElement('script');
-    script.src = "https://cse.google.com/cse.js?cx=84d570c211b3e48de";
-    script.async = true;
-    document.body.appendChild(script);
 
-    // تنظيف لتجنب إضافة multiple scripts عند إعادة التحميل
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <>
       <div className="article">
-        {/* إضافة محرك البحث */}
-        <div style={{ width: "80%", height: "20vh", background: "red" }}>
-          <div className="gcse-search"></div>
-        </div>
+      
 
         {/* محتوى المقالات هنا */}
         <h1>مقالات الصحة النفسية</h1>

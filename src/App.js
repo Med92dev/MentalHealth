@@ -1,4 +1,6 @@
 // src/App.js
+import React from 'react';
+
 import { Route, Routes } from 'react-router-dom';
 import MainContent from './main-interface/MainContent';
 import Header from './main-interface/Header';
