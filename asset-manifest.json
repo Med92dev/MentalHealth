@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MentalHealth/static/css/main.323da95a.css",
-    "main.js": "/MentalHealth/static/js/main.13e609cc.js",
+    "main.css": "/MentalHealth/static/css/main.481e9117.css",
+    "main.js": "/MentalHealth/static/js/main.90385050.js",
     "static/js/453.bc7bf849.chunk.js": "/MentalHealth/static/js/453.bc7bf849.chunk.js",
     "static/media/meditation.jpg": "/MentalHealth/static/media/meditation.ae7f86fd4c6c73f5005a.jpg",
     "static/media/nutrition.jpg": "/MentalHealth/static/media/nutrition.68053387310f6ebcae64.jpg",
@@ -10,10 +10,7 @@
     "static/media/art.jpg": "/MentalHealth/static/media/art.5bd7bc3749a8d109b32b.jpg",
     "static/media/stress.jpg": "/MentalHealth/static/media/stress.3befdf7c1a46a8df2303.jpg",
     "static/media/DALL·E.webp": "/MentalHealth/static/media/DALL·E.62e4c84cfbd70fcda064.webp",
-    "static/media/depression.jpg": "/MentalHealth/static/media/depression.11094c2b9ca59c185ffd.jpg",
-    "static/media/fear.jpg": "/MentalHealth/static/media/fear.9c71593717bbc0c8600f.jpg",
     "static/media/llllllllllllllggggggggg.png": "/MentalHealth/static/media/llllllllllllllggggggggg.c965d5bf131e3e179e60.png",
-    "static/media/autism.jpg": "/MentalHealth/static/media/autism.9302325f83582b712a62.jpg",
     "static/media/doc-brian.webp": "/MentalHealth/static/media/doc-brian.bf5882c195576fddb456.webp",
     "static/media/doc-laurie.webp": "/MentalHealth/static/media/doc-laurie.19c2ccabf78aa476b863.webp",
     "static/media/doc-susan.webp": "/MentalHealth/static/media/doc-susan.19c2ccabf78aa476b863.webp",
@@ -21,12 +18,12 @@
     "static/media/doc-abarmas.webp": "/MentalHealth/static/media/doc-abarmas.4c13097c3d033fb833c5.webp",
     "static/media/doc-shamano.webp": "/MentalHealth/static/media/doc-shamano.4c13097c3d033fb833c5.webp",
     "index.html": "/MentalHealth/index.html",
-    "main.323da95a.css.map": "/MentalHealth/static/css/main.323da95a.css.map",
-    "main.13e609cc.js.map": "/MentalHealth/static/js/main.13e609cc.js.map",
+    "main.481e9117.css.map": "/MentalHealth/static/css/main.481e9117.css.map",
+    "main.90385050.js.map": "/MentalHealth/static/js/main.90385050.js.map",
     "453.bc7bf849.chunk.js.map": "/MentalHealth/static/js/453.bc7bf849.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.323da95a.css",
-    "static/js/main.13e609cc.js"
+    "static/css/main.481e9117.css",
+    "static/js/main.90385050.js"
   ]
 }
